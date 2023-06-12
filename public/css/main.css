@@ -1,0 +1,34 @@
+* {
+    color: black;
+}
+.timesheet {
+    width: 35%;
+    height: 200px;
+    border: 2px black solid;
+    border-radius: 3px;
+    float: left;
+    margin: auto 15px;
+}
+.timesheet_entry--label, .timesheet_entries--label {
+    font-weight: bold;
+}
+.timesheet_input {
+    display: flex;
+    padding: 10px 5px 0;
+}
+.timesheet_input_label {
+    min-width: 100px;
+}
+.timesheet_input--submit {
+    height: 35px;
+    padding: 0 30px;
+    font-size: 1em;
+}
+.timesheet_entries_input {
+    height: 35px;
+    margin: 5px 10px;
+    font-size: 1em;
+}
+.timesheet_result {
+    padding-left: 5px;
+}
